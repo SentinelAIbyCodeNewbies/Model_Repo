@@ -5,7 +5,7 @@ from tensorflow.keras.applications.xception import preprocess_input
 import matplotlib.pyplot as plt
 
 
-saved_model = load_model('xception_deepfake_base.keras')
+saved_model = load_model('image.keras')
 
 def manual_test_xception(model, img_path):
   print(f"Loading image: {img_path}")
