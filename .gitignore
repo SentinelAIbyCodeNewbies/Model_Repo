@@ -5,3 +5,4 @@
 *.xml
 .DS_Store
 *dataset/
+*.venv
